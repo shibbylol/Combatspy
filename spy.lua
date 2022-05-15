@@ -2002,7 +2002,7 @@ function remoteHandler(hookfunction, methodName, remote, args, funcInfo, calling
 				end
 			end)
 		end
-		local remotename = "fuck i forgor"
+		local remotename = remote.Name
 		for i, lol in pairs(remotes) do
 		    if lol == remote then
 		       
